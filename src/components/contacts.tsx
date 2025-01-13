@@ -1,6 +1,6 @@
 "use client";
 
-import { CalendarIcon, Check, MoveRight, PhoneCall } from "lucide-react";
+import { CalendarIcon, Check, MoveRight } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Calendar } from "@/components/ui/calendar";

@@ -12,6 +12,7 @@ export const Vehicles = () => {
   const [api, setApi] = useState<CarouselApi>();
   const [current, setCurrent] = useState(0);
 
+  console.log(current);
   const carImages = [
     "https://static.vecteezy.com/system/resources/previews/024/568/587/non_2x/closeup-luxury-supercar-on-dark-background-ai-generated-free-photo.JPG",
     "https://img.freepik.com/premium-photo/luxury-car-dark-background-generative-ai_446633-154818.jpg",
@@ -66,4 +67,3 @@ export const Vehicles = () => {
     </div>
   );
 };
-

@@ -76,7 +76,7 @@ function CarModel({
   });
 
   return (
-    <a.group scale={scaleSpring}>
+    <a.group scale={scaleSpring.to((x, y, z) => [x, y, z])}>
       <primitive object={clonedScene} dispose={null} />
     </a.group>
   );

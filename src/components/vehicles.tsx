@@ -11,30 +11,30 @@ import { a, useSpring } from "@react-spring/three";
 const models = [
   {
     name: "Lamborghini Centenario",
-    path: "/models/lamborghini_centenario.glb",
+    path: "/LA-Driving-School/models/lamborghini_centenario.glb",
     scale: [1, 1, 1],
     animation: "Animation",
   },
   {
     name: "2017 Mclaren 720",
-    path: "/models/mclaren_720.glb",
+    path: "/LA-Driving-School/models/mclaren_720.glb",
     scale: [1.5, 1.5, 1.5],
     animation: "spoiler|spoilerAction",
   },
   {
     name: "2013 Lamborghini Aventador LP700-4 Roaster",
-    path: "/models/lamborghini_aventador_lp700-4_.glb",
+    path: "/LA-Driving-School/models/lamborghini_aventador_lp700-4_.glb",
     scale: [1, 1, 1],
     animation: "Animation",
   },
   {
     name: "Bajaj Avenger Cruise 200",
-    path: "/models/bajaj_avenger_cruise_200.glb",
+    path: "/LA-Driving-School/models/bajaj_avenger_cruise_200.glb",
     scale: [1.8, 1.8, 1.8],
   },
   {
     name: "Dodge Charger Daytona",
-    path: "/models/dodge_charger_daytona_1969_custom_two.glb",
+    path: "/LA-Driving-School/models/dodge_charger_daytona_1969_custom_two.glb",
     scale: [1, 1, 1],
   },
 ];
